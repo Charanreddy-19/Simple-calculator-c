@@ -1,44 +1,12 @@
-# Simple-calculator-c
-Simple calculator project using c programming 
-Calculator.c
-#include <stdio.h>
+# Simple Calculator in C
 
-int main() {
-    float a, b;
-    char op;
+A simple calculator project using C programming.
 
-    printf("Enter first number: ");
-    scanf("%f", &a);
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
-    printf("Enter operator (+, -, *, /): ");
-    scanf(" %c", &op);
-
-    printf("Enter second number: ");
-    scanf("%f", &b);
-
-    switch(op) {
-        case '+':
-            printf("Result = %.2f\n", a + b);
-            break;
-
-        case '-':
-            printf("Result = %.2f\n", a - b);
-            break;
-
-        case '*':
-            printf("Result = %.2f\n", a * b);
-            break;
-
-        case '/':
-            if (b != 0)
-                printf("Result = %.2f\n", a / b);
-            else
-                printf("Error: Cannot divide by zero.\n");
-            break;
-
-        default:
-            printf("Invalid operator.\n");
-    }
-
-    return 0;
-}
+## Language
+C Programming
