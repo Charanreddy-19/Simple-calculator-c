@@ -44,5 +44,5 @@ int main() {
             printf("Invalid operator.\n");
     }
 
-    return 0;
+    return ();
 }
